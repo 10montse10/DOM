@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(1, 160, 189);
+  color: lightblue;
+  padding: 24px;
+  max-width: 400px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: rgb(75, 77, 233);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 12px 8px;
+  color: antiquewhite;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bg-one {
+  background-color: rgb(235, 170, 180);
+}
+
+.bg-one:hover {
+  background-color: rgb(223, 144, 92);
+}
+
+.bg-two {
+  background-color: rgb(180, 116, 233);
+}
+
+.bg-two:hover {
+  background-color: rgb(119, 175, 119);
+}
